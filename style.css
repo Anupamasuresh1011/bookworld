@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inconsolata", monospace;
+}
+h1{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+i{
+    margin: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    background-color: palevioletred;
+}
+button{
+    border: 5px solid;
+    border-color: black;
+    padding-left: 10px;
+}
+.search{
+    border: 3px solid;
+    width: 300px;
+    height: 20px;
+}
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+ .book{
+    width: 50%;
+    height: 500px;
+    float: left;
+} 
+.child{
+    width: 25%;
+    height: 500px;
+    background-color:aquamarine;
+    float: left;
+}
+body{
+    margin:0px ;
+}
+.novel{
+    width: 250px;
+    height: 380px;
+    margin: 25px;
+    padding: 15px;
+}
+.link{
+    text-decoration: none;
+    font-weight: bolder;
+    color:brown;
+    
+}
+.link:hover{
+    color: aqua;
+}
+.content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+     justify-content: space-around;
+    align-items: center;
+    background-color:rgb(111, 231, 111);
+    
+}
+.products{
+    width:200px;
+    height: 400px;
+    background-color:white;
+    margin: 2px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+.foot{
+    width: 100%;
+    height: 200px;
+    background-color: palevioletred;
+}
+.proimg{
+ width: 150px;
+ height: 150px;
+ border-radius: 10px;
+ margin: 20px;
+}
+.para{
+   text-align: justify;
+   font-family:"Edu AU VIC WA NT Hand", cursive; 
+   font-size: small;
+}
+.btn{
+   border: 3px solid black;
+   padding: 2px;
+   color: white;
+   background-color: palevioletred;
+   margin: 20px;
+}
+.btn:hover{
+    color: black;
+    background-color:palegreen;
+}
+.footer{
+    width: 30%;
+    height: 180px;
+    float: left;
+    padding-left: 35px;
+}
+.connect{
+    width: 50px;
+    height: 50px;
+}
+.about{
+    width: 100%;
+    height: 150px;
+    background-color: palegreen;
+}
+.us{
+    text-align: justify;
+    margin: 5px;
+    font-size: smaller;
+}
+.more{
+    border: 5px solid black;
+    padding: 3px;
+    color: white;
+    background-color: palevioletred;
+    margin: 20px;
+    width: 80px;
+}
+.more:hover{
+    color: black;
+    background-color:palegreen;
+}
